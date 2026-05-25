@@ -21,29 +21,6 @@ This project analyzes customer shopping behavior to uncover patterns, trends, an
 - Visualization of shopping patterns and behaviors
 - Statistical analysis and insights
 
-## Project Structure
-
-```
-customer-shopping-behavior-analysis-project/
-├── README.md
-├── data/
-│   ├── raw/                 # Original, immutable data files
-│   └── processed/           # Cleaned and transformed data
-├── notebooks/
-│   ├── 01_data_exploration.ipynb
-│   ├── 02_data_cleaning.ipynb
-│   ├── 03_eda.ipynb
-│   └── 04_customer_segmentation.ipynb
-├── src/
-│   ├── data_processing.py   # Data cleaning and preprocessing functions
-│   ├── analysis.py          # Analysis and statistical functions
-│   └── visualization.py     # Plotting and visualization utilities
-├── results/
-│   ├── figures/             # Generated plots and visualizations
-│   └── reports/             # Analysis reports and findings
-└── requirements.txt         # Python dependencies
-```
-
 ## Getting Started
 
 ### Prerequisites
