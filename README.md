@@ -93,34 +93,11 @@ python src/analysis.py
 - **Jupyter Notebook**: Interactive analysis and documentation
 
 ## Requirements
-
-See `requirements.txt` for all dependencies. Key packages include:
+Key packages include:
 - pandas
 - numpy
 - matplotlib
-- seaborn
-- scikit-learn
 - jupyter
-
-## Results & Insights
-
-Key findings from the analysis are documented in:
-- `results/reports/` - Detailed analysis reports
-- `results/figures/` - Visual representations of patterns and insights
-
-## Contributing
-
-Contributions are welcome! Please feel free to:
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Submit a pull request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Author
 
 **Raj Rathod**  
