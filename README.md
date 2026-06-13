@@ -1,118 +1,40 @@
-# Customer Shopping Behavior Analysis Project
+# Customer Shopping Behavior Analysis
 
-## Overview
+Exploratory data analysis of customer shopping patterns using Python, SQL, and Power BI.
 
-This project analyzes customer shopping behavior to uncover patterns, trends, and insights that can help businesses optimize their sales strategies, improve customer experience, and increase revenue.
+## Tools Used
+Python (pandas, matplotlib, seaborn) · MySQL · Power BI · DAX
 
-## Project Objectives
+## Dataset
+- **Source:** [Customer Shopping Behavior Dataset — Kaggle](https://www.kaggle.com/datasets/iamsouravbanerjee/customer-shopping-trends-dataset)
+- **Records:** 3,900 customers
+- **Columns:** age, gender, item purchased, category, purchase amount, season, payment method, review rating, subscription status, discount applied
 
-- **Identify purchasing patterns**: Discover trends in customer buying behavior across different product categories and time periods
-- **Customer segmentation**: Group customers based on shopping habits and preferences
-- **Sales forecasting**: Predict future purchasing trends and seasonal patterns
-- **Behavioral insights**: Understand factors that influence customer purchasing decisions
-- **Optimize marketing strategies**: Develop targeted marketing campaigns based on customer segments
-
-## Features
-
-- Data cleaning and preprocessing
-- Exploratory Data Analysis (EDA)
-- Customer segmentation analysis
-- Time-series analysis for trend identification
-- Visualization of shopping patterns and behaviors
-- Statistical analysis and insights
-
-## Getting Started
-
-### Prerequisites
-
-- Python 3.8+
-- pip or conda package manager
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/rajrathod2048/customer-shopping-behavior-analysis-project.git
-cd customer-shopping-behavior-analysis-project
-```
-
-2. Create a virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-3. Install required packages:
-```bash
-pip install -r requirements.txt
-```
-
-## Usage
-
-### Running the Analysis
-
-1. **Data Preparation**: Place your raw data in the `data/raw/` directory
-
-2. **Exploratory Analysis**: Start with the Jupyter notebooks in the `notebooks/` directory:
-```bash
-jupyter notebook notebooks/01_data_exploration.ipynb
-```
-
-3. **Run the pipeline**:
-```bash
-python src/data_processing.py
-python src/analysis.py
-```
-
-4. **View Results**: Check the `results/` directory for generated visualizations and reports
+## Project Files
+| File | Description |
+|------|-------------|
+| `customer_behavior.ipynb` | Python EDA — data cleaning, visualizations, pattern analysis |
+| `Customer Shopping Behavior.sql` | SQL queries for segmentation and aggregation |
+| `customer_behaviour.pbix` | Power BI dashboard |
+| `Customer Shopping Behavior Analysis.pdf` | Full analysis report with findings |
+| `Customer-Shopping-Behavior-Analysis.pptx` | Presentation deck with key insights |
+| `Business Problem Document.pdf` | Problem statement and project scope |
 
 ## Key Analyses
+- Purchase distribution by category, gender, and season
+- Payment method preferences across customer segments
+- Review rating patterns by product category
+- Discount impact on purchase behavior
+- Subscription vs non-subscription spending comparison
 
-### 1. Purchasing Patterns
-- Identification of peak shopping seasons
-- Popular product categories
-- Average transaction values
+## Key Findings
+*(Add 3–4 actual findings from your notebook/report here — e.g., "Clothing accounts for X% of purchases" or "Customers with subscriptions spend Y% more on average")*
 
-### 2. Customer Segmentation
-- RFM (Recency, Frequency, Monetary) analysis
-- Clustering of customers based on behavior
-- Customer lifetime value calculation
+## How to Run
+1. Clone the repo
+2. Open `customer_behavior.ipynb` in Jupyter Notebook
+3. Install dependencies: `pip install pandas matplotlib seaborn`
+4. Run all cells
 
-### 3. Trend Analysis
-- Time-series decomposition
-- Seasonal trends identification
-- Year-over-year comparisons
-
-## Technologies Used
-
-- **Python 3**: Main programming language
-- **Pandas**: Data manipulation and analysis
-- **NumPy**: Numerical computations
-- **Matplotlib & Seaborn**: Data visualization
-- **Scikit-learn**: Machine learning and clustering
-- **Jupyter Notebook**: Interactive analysis and documentation
-
-## Requirements
-Key packages include:
-- pandas
-- numpy
-- matplotlib
-- jupyter
 ## Author
-
-**Raj Rathod**  
-GitHub: [@rajrathod2048](https://github.com/rajrathod2048)
-
-## Acknowledgments
-
-- Data sources and references
-- Libraries and tools used
-- Inspirations and similar projects
-
-## Contact
-
-For questions, suggestions, or collaboration opportunities, please feel free to reach out via GitHub issues or email.
-
----
-
-**Last Updated**: May 2026
+**Raj Rathod** · [GitHub](https://github.com/rajrathod2048)
